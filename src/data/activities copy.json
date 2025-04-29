@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "1",
+    "title": "Travasi che passione",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "2 piccole ciotole",
+      "Cucchiaio",
+      "Fagioli",
+      "Materiali trasferibili (solidi come pasta secca",
+      "Riso o liquidi come acqua per i bambini più grandi)."
+    ],
+    "category": [
+      "Motricità fine",
+      "Sensoriale"
+    ],
+    "description": "Utilizzando due piccole ciotole, un cucchiaio e diversi materiali (ad esempio, fagioli, riso, acqua), i bambini trasferiscono il contenuto da una ciotola all'altra. Si suggeriscono materiali solidi o liquidi a seconda dell'età del bambino.",
+    "benefits": [
+      "Migliora lo sviluppo intellettivo",
+      "Migliora la coordinazione occhio-mano",
+      "Migliora le capacità motorie fini"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Hula hop sensoriale",
+    "age": "0-2",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Hula hoop",
+      "Lana",
+      "Nastrini colorati",
+      "Palline sonore",
+      "Sacchetti sensoriali.",
+      "Spugne",
+      "Tessuti di diverse consistenze"
+    ],
+    "category": [
+      "Sensoriale"
+    ],
+    "description": "Un hula hoop con attaccati vari materiali e oggetti di diverse consistenze (spugne, palline sonore, tessuti, nastrini, lana).",
+    "benefits": [
+      "Stimola il tatto",
+      "Incoraggia l'esplorazione",
+      "Offre una ricca esperienza sensoriale attraverso diverse consistenze e suoni"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Bottiglie sonore",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Acqua colorata).",
+      "Bottiglie trasparenti vuote (dimensione suggerita: mezzo litro)",
+      "Cannucce",
+      "Cotone",
+      "Diversi materiali di riempimento (legumi",
+      "Farina",
+      "Pasta",
+      "Piccole forme di pasta"
+    ],
+    "category": [
+      "Sensoriale",
+      "Uditivo"
+    ],
+    "description": "Bottiglie trasparenti vuote riempite con materiali diversi (legumi, pasta, farina, acqua colorata) per creare suoni vari.",
+    "benefits": [
+      "Sviluppa la discriminazione uditiva",
+      "Incoraggia l'osservazione dei diversi suoni e contenuti"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Cestino dei tesori naturale",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Cestino (paglia",
+      "Cucchiai di legno",
+      "Oggetti di metallo come cucchiai",
+      "Oggetti naturali (frutta di stagione come mele e pere",
+      "Pigne",
+      "Vari tessuti).",
+      "Verdura come zucchine e carote",
+      "Vimini o legno)"
+    ],
+    "category": [
+      "Sensoriale"
+    ],
+    "description": "Un cestino riempito con oggetti naturali sicuri di diverse consistenze, forme e dimensioni (ad esempio, frutta, verdura, oggetti di legno, tessuti). Adatto quando il bambino riesce a stare seduto comodamente con sostegno.",
+    "benefits": [
+      "Incoraggia l'esplorazione sensoriale",
+      "Stimola la scoperta attraverso tatto, vista, olfatto e gusto (con supervisione)"
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Buttiamo giù la torre",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Blocchi (di legno",
+      "Blocchi logici o bicchieri di plastica.",
+      "Plastica)"
+    ],
+    "category": [
+      "Motricità grossolana"
+    ],
+    "description": "Costruire semplici torri con blocchi o bicchieri perché il bambino le abbatta. Si possono usare costruzioni, blocchi logici o bicchieri di plastica.",
+    "benefits": [
+      "Sviluppa la motricità grossolana (raggiungimento, abbattimento)",
+      "Sviluppa la coordinazione occhio-mano",
+      "Sviluppa la comprensione di causa ed effetto",
+      "Stimola il linguaggio (es. \"Bum!\")"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Mi scappa la palla",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Una palla (morbida e sicura per i bambini piccoli)."
+    ],
+    "category": [
+      "Motricità grossolana"
+    ],
+    "description": "Prendere una palla, lanciarla in aria e fingere di non riuscire a prenderla, facendola rimbalzare ed esclamando \"Oh, mi è scappata!\".",
+    "benefits": [
+      "Incoraggia le capacità motorie grossolane (lanciare, raggiungere)",
+      "Sviluppa un senso di divertimento e anticipazione"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Tira il fazzoletto",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Fazzoletto di stoffa."
+    ],
+    "category": [
+      "Motricità fine",
+      "Motricità grossolana"
+    ],
+    "description": "Seduti sul pavimento con il bambino, ognuno tiene un'estremità di un fazzoletto di stoffa e tira delicatamente.",
+    "benefits": [
+      "Sviluppa le capacità di presa (motricità fine)",
+      "Sviluppa la comprensione di causa ed effetto (motricità grossolana)",
+      "Incoraggia l'interazione e la comunicazione"
+    ]
+  },
+  {
+    "id": "8",
+    "title": "Giochi di prese",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Pupazzi o piccoli giocattoli facili da afferrare per i neonati.",
+      "Sonagli"
+    ],
+    "category": [
+      "Motricità fine"
+    ],
+    "description": "Posizionare il bambino in posizione supina e mostrargli sonagli, pupazzi o oggetti simili, tenendoli in alto e poi avvicinandoli alle sue mani per incoraggiare la presa. Si possono associare parole ai movimenti durante questo gioco.",
+    "benefits": [
+      "Stimola i riflessi di presa",
+      "Stimola la coordinazione occhio-mano"
+    ]
+  },
+  {
+    "id": "9",
+    "title": "Le prime costruzioni",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Blocchi morbidi (di stoffa o gomma)."
+    ],
+    "category": [
+      "Motricità fine"
+    ],
+    "description": "Giocare con blocchi morbidi, permettendo ai bambini di esplorare l'impilamento e la manipolazione degli oggetti. Inizialmente potrebbero solo lanciarli.",
+    "benefits": [
+      "Introduce le prime abilità di costruzione",
+      "Introduce il ragionamento spaziale",
+      "Migliora la coordinazione occhio-mano"
+    ]
+  },
+  {
+    "id": "10",
+    "title": "Marionette con i calzini",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Calzini."
+    ],
+    "category": [
+      "Creativo",
+      "Immaginativo"
+    ],
+    "description": "Usare i calzini come marionette per raccontare semplici storie o avere conversazioni divertenti con il bambino.",
+    "benefits": [
+      "Incoraggia l'immaginazione",
+      "Incoraggia la creatività",
+      "Sviluppa le prime abilità di narrazione"
+    ]
+  },
+  {
+    "id": "11",
+    "title": "Scriviamo nello zucchero",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Piccolo bastoncino o dito.",
+      "Vassoio poco profondo",
+      "Zucchero"
+    ],
+    "category": [
+      "Creativo",
+      "Sensoriale"
+    ],
+    "description": "Usare un vassoio poco profondo riempito di zucchero perché il bambino lasci segni e disegni con un dito o un bastoncino.",
+    "benefits": [
+      "Incoraggia le abilità pre-scrittura",
+      "Favorisce l'esplorazione sensoriale attraverso il tatto",
+      "Stimola la creatività"
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Giochi allo specchio",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Specchio sicuro per bambini."
+    ],
+    "category": [
+      "Creativo",
+      "Sensoriale"
+    ],
+    "description": "Posizionare uno specchio di fronte al bambino durante il \"tummy time\" o mentre è seduto per permettergli di osservare il proprio riflesso e fare smorfie.",
+    "benefits": [
+      "Sviluppa la consapevolezza di sé",
+      "Sviluppa il tracciamento visivo",
+      "Sviluppa la comprensione delle espressioni facciali"
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Musicisti fai da te!",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Bottiglie di plastica",
+      "Cucchiaio di legno.",
+      "Pasta o fagioli secchi",
+      "Pentole o contenitori per alimenti",
+      "Scolapasta di plastica"
+    ],
+    "category": [
+      "Linguaggio",
+      "Sensoriale",
+      "Uditivo"
+    ],
+    "description": "Creare semplici strumenti musicali con oggetti di uso quotidiano come bottiglie di plastica riempite di pasta o fagioli secchi (shaker), pentole o contenitori per alimenti (tamburi) e uno scolapasta di plastica con un cucchiaio di legno (guiro).",
+    "benefits": [
+      "Introduce diversi suoni e ritmi",
+      "Stimola lo sviluppo uditivo",
+      "Incoraggia la vocalizzazione"
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Documentari di animali e I versi degli animali",
+    "age": "0-2",
+    "time": "Preparazione minima",
+    "materials": [
+      "Documentari o video sugli animali",
+      "O anche libri illustrati con i versi degli animali."
+    ],
+    "category": [
+      "Educativo",
+      "Linguaggio",
+      "Uditivo"
+    ],
+    "description": "Guardare brevi documentari sugli animali e imitare i versi che fanno.",
+    "benefits": [
+      "Incoraggia lo sviluppo del linguaggio",
+      "Favorisce l'associazione di suoni agli animali",
+      "Amplia il vocabolario"
+    ]
+  },
+  {
+    "id": "15",
+    "title": "Filastrocche",
+    "age": "0-2",
+    "time": "Nessuna preparazione",
+    "materials": [
+      "Nessuno."
+    ],
+    "category": [
+      "Linguaggio",
+      "Senso-motorio",
+      "Uditivo"
+    ],
+    "description": "Cantare semplici filastrocche al bambino, stimolando il linguaggio e potendo incorporare movimenti ritmici per coinvolgere l'area senso-motoria.",
+    "benefits": [
+      "Stimola lo sviluppo del linguaggio",
+      "Stimola il senso del ritmo",
+      "Migliora le capacità senso-motorie se combinato con azioni"
+    ]
+  },
+  {
+    "id": "16",
+    "title": "Corsa all'indietro",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Spazio esterno sicuro."
+    ],
+    "category": [
+      "All'aperto",
+      "Motricità grossolana"
+    ],
+    "description": "Correre all'indietro su un percorso sicuro e aperto. Può essere introdotta già a 24 mesi.",
+    "benefits": [
+      "Migliora la gestione del corpo",
+      "Migliora l'equilibrio",
+      "Migliora la consapevolezza spaziale"
+    ]
+  },
+  {
+    "id": "17",
+    "title": "La carriola",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Nessuno."
+    ],
+    "category": [
+      "All'aperto",
+      "Motricità grossolana"
+    ],
+    "description": "Un bambino (o un adulto) tiene le gambe di un altro bambino mentre questi cammina sulle mani, come una carriola.",
+    "benefits": [
+      "Sviluppa la forza della parte superiore del corpo",
+      "Sviluppa la coordinazione",
+      "Sviluppa l'equilibrio"
+    ]
+  },
+  {
+    "id": "18",
+    "title": "Attenti al Lupo",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Spazio aperto."
+    ],
+    "category": [
+      "All'aperto",
+      "Motricità grossolana",
+      "Sociale"
+    ],
+    "description": "Un tradizionale gioco di inseguimento in cui una persona è il \"lupo\" e cerca di catturare gli altri giocatori.",
+    "benefits": [
+      "Incoraggia l'attività fisica",
+      "Sviluppa l'agilità",
+      "Promuove l'interazione sociale"
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Le Sedie",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Lettore musicale.",
+      "Sedie (una in meno rispetto al numero dei giocatori)"
+    ],
+    "category": [
+      "All'aperto e al chiuso",
+      "Ascolto",
+      "Motricità grossolana",
+      "Sociale"
+    ],
+    "description": "I giocatori camminano intorno a un cerchio di sedie mentre suona la musica e, quando la musica si ferma, devono sedersi rapidamente. Una sedia viene rimossa a ogni round.",
+    "benefits": [
+      "Sviluppa la coordinazione",
+      "Sviluppa le capacità di ascolto",
+      "Sviluppa le abilità sociali",
+      "Migliora la comprensione delle regole"
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Difendi il Birillo",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Birillo (o una bottiglia di plastica)",
+      "Una palla."
+    ],
+    "category": [
+      "All'aperto",
+      "Coordinazione",
+      "Motricità grossolana"
+    ],
+    "description": "Posizionare un birillo (o un oggetto simile) a terra e un giocatore cerca di abbatterlo con una palla mentre un altro giocatore lo difende.",
+    "benefits": [
+      "Migliora la mira",
+      "Migliora la coordinazione",
+      "Migliora il pensiero strategico"
+    ]
+  },
+  {
+    "id": "21",
+    "title": "Indovina la foglia",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Varie foglie raccolte in natura."
+    ],
+    "category": [
+      "All'aperto",
+      "Educativo",
+      "Sensoriale"
+    ],
+    "description": "Raccogliere diversi tipi di foglie e chiedere al bambino di identificarle in base a forma, dimensione e consistenza.",
+    "benefits": [
+      "Migliora la conoscenza della natura",
+      "Migliora le capacità di osservazione",
+      "Migliora la discriminazione sensoriale"
+    ]
+  },
+  {
+    "id": "22",
+    "title": "Giocare all'aria aperta",
+    "age": "2-5",
+    "time": "Nessuna preparazione",
+    "materials": [
+      "Spazio esterno sicuro."
+    ],
+    "category": [
+      "All'aperto",
+      "Creativo",
+      "Motricità grossolana"
+    ],
+    "description": "Impegnarsi nel gioco libero all'aperto, tra cui correre, saltare, arrampicarsi ed esplorare.",
+    "benefits": [
+      "Promuove lo sviluppo fisico",
+      "Promuove la coordinazione motoria",
+      "Promuove l'equilibrio",
+      "Stimola l'immaginazione e la creatività",
+      "Favorisce l'apprendimento sensoriale"
+    ]
+  },
+  {
+    "id": "23",
+    "title": "Esplorare la natura",
+    "age": "2-5",
+    "time": "Nessuna preparazione",
+    "materials": [
+      "Ambiente naturale."
+    ],
+    "category": [
+      "All'aperto",
+      "Educativo",
+      "Sensoriale"
+    ],
+    "description": "Fare passeggiate nella natura, osservando piante, insetti e altri elementi naturali per favorire la curiosità e l'apprendimento sensoriale.",
+    "benefits": [
+      "Migliora l'apprendimento sensoriale",
+      "Sviluppa la curiosità per il mondo naturale",
+      "Incoraggia le capacità di osservazione"
+    ]
+  },
+  {
+    "id": "24",
+    "title": "Pallone, Aree giochi, Arrampicata, Bolle di sapone",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Accesso ad aree gioco con scivoli e altalene",
+      "Palle di diverse dimensioni",
+      "Soluzione per bolle di sapone e bacchetta.",
+      "Strutture sicure per l'arrampicata"
+    ],
+    "category": [
+      "All'aperto",
+      "Motricità grossolana",
+      "Sensoriale"
+    ],
+    "description": "Diverse attività all'aperto che coinvolgono il gioco con la palla, l'utilizzo di strutture da gioco come scivoli e altalene, l'arrampicata su strutture sicure e il soffiare e far scoppiare le bolle di sapone.",
+    "benefits": [
+      "Migliora le capacità motorie",
+      "Migliora la coordinazione",
+      "Migliora la forma fisica",
+      "Migliora il tracciamento visivo (per le bolle di sapone)"
+    ]
+  },
+  {
+    "id": "25",
+    "title": "Cantare e ballare",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Lettore musicale",
+      "Una varietà di canzoni."
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Linguaggio",
+      "Motricità grossolana"
+    ],
+    "description": "Cantare le canzoni preferite e ballare liberamente con la musica.",
+    "benefits": [
+      "Sviluppa le capacità linguistiche",
+      "Sviluppa il senso del ritmo",
+      "Sviluppa la coordinazione motoria",
+      "Promuove l'espressione emotiva e la creatività"
+    ]
+  },
+  {
+    "id": "26",
+    "title": "Danza delle statue",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Lettore musicale con canzoni allegre."
+    ],
+    "category": [
+      "Al chiuso",
+      "Ascolto",
+      "Coordinazione",
+      "Motricità grossolana"
+    ],
+    "description": "Ballare con la musica e improvvisamente congelarsi in una posa quando la musica si ferma.",
+    "benefits": [
+      "Migliora la coordinazione",
+      "Migliora il senso del ritmo",
+      "Migliora le capacità di ascolto",
+      "Migliora l'autocontrollo"
+    ]
+  },
+  {
+    "id": "27",
+    "title": "Un-due-tre-stella",
+    "age": "2-5",
+    "time": "Nessuna preparazione",
+    "materials": [
+      "Nessuno."
+    ],
+    "category": [
+      "All'aperto e al chiuso",
+      "Ascolto",
+      "Motricità grossolana",
+      "Sociale"
+    ],
+    "description": "Una persona sta di spalle agli altri giocatori e dice \"Un, due, tre...stella\". Mentre è di spalle, i giocatori cercano di avvicinarsi. Quando si gira, chiunque venga sorpreso a muoversi deve tornare all'inizio.",
+    "benefits": [
+      "Sviluppa le capacità di ascolto",
+      "Sviluppa l'autocontrollo",
+      "Sviluppa le capacità motorie grossolane"
+    ]
+  },
+  {
+    "id": "28",
+    "title": "Creare una capanna",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Coperte",
+      "Cuscini",
+      "Libri.",
+      "Mollette per bucato",
+      "Opzionale: torcia",
+      "Sedie"
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Immaginativo"
+    ],
+    "description": "Usare coperte, cuscini, sedie e altri oggetti domestici per costruire una capanna accogliente nel soggiorno o nella camera da letto. Si suggerisce di leggere storie all'interno con una torcia.",
+    "benefits": [
+      "Incoraggia l'immaginazione e la creatività",
+      "Sviluppa le capacità di risoluzione dei problemi",
+      "Offre un senso di avventura e uno spazio accogliente"
+    ]
+  },
+  {
+    "id": "29",
+    "title": "Dipingere e disegnare",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Carta di diverse dimensioni e tipi",
+      "Colori lavabili",
+      "Matite colorate",
+      "Pastelli",
+      "Pennarelli."
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Motricità fine"
+    ],
+    "description": "Fornire vari materiali artistici come colori, pastelli, pennarelli e carta perché i bambini esprimano la loro creatività attraverso il disegno e la pittura.",
+    "benefits": [
+      "Stimola le capacità motorie fini",
+      "Stimola la coordinazione occhio-mano",
+      "Stimola la creatività e l'immaginazione",
+      "Offre uno sbocco per l'espressione emotiva"
+    ]
+  },
+  {
+    "id": "30",
+    "title": "Giocare con la plastilina",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Plastilina (comprata o fatta in casa)."
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Motricità fine",
+      "Sensoriale"
+    ],
+    "description": "Usare la plastilina per modellare, dare forma e creare diverse figure e oggetti.",
+    "benefits": [
+      "Migliora le capacità motorie fini",
+      "Migliora la coordinazione occhio-mano",
+      "Stimola la creatività e l'immaginazione",
+      "Offre esplorazione sensoriale attraverso il tatto"
+    ]
+  },
+  {
+    "id": "31",
+    "title": "Preparare una torta o dei biscotti",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Ciotole per mescolare",
+      "Ecc.)",
+      "Forno.",
+      "Ingredienti per dolci (farina",
+      "Misurini e cucchiai",
+      "Teglia da forno",
+      "Uova",
+      "Zucchero"
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Vita pratica"
+    ],
+    "description": "Coinvolgere i bambini nel processo di preparazione di semplici ricette come torte o biscotti, permettendo loro di misurare gli ingredienti, mescolare e decorare.",
+    "benefits": [
+      "Sviluppa le abilità di vita pratica",
+      "Insegna a seguire le istruzioni",
+      "Migliora le capacità di misurazione",
+      "Offre un senso di realizzazione"
+    ]
+  },
+  {
+    "id": "32",
+    "title": "Animare un libro",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Opzionale: giocattoli o oggetti domestici per oggetti di scena.",
+      "Un libro con una buona trama e personaggi"
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Immaginativo",
+      "Linguaggio"
+    ],
+    "description": "Scegliere un libro preferito con dialoghi e personaggi e recitare la storia, assegnando ruoli diversi ai partecipanti. Suggerisce di usare giocattoli o oggetti domestici come oggetti di scena.",
+    "benefits": [
+      "Incoraggia lo sviluppo del linguaggio",
+      "Migliora l'immaginazione",
+      "Migliora la comprensione della narrazione",
+      "Promuove l'interazione sociale"
+    ]
+  },
+  {
+    "id": "33",
+    "title": "Divertirsi con semplici giochi da tavolo",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Semplici giochi da tavolo adatti all'età prescolare."
+    ],
+    "category": [
+      "Al chiuso",
+      "Educativo",
+      "Sociale"
+    ],
+    "description": "Introdurre giochi da tavolo adatti all'età con regole semplici, come giochi di memoria, giochi di abbinamento o semplici giochi di strategia.",
+    "benefits": [
+      "Sviluppa la concentrazione e la memoria",
+      "Sviluppa la capacità di seguire le regole",
+      "Promuove l'interazione sociale, il rispetto dei turni e la sportività"
+    ]
+  },
+  {
+    "id": "34",
+    "title": "Costruzioni e puzzle",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Blocchi da costruzione",
+      "Puzzle adatti alla fascia d'età."
+    ],
+    "category": [
+      "Al chiuso",
+      "Educativo",
+      "Motricità fine",
+      "Ragionamento spaziale"
+    ],
+    "description": "Impegnarsi con vari tipi di costruzioni (come LEGO Duplo o blocchi di legno) e puzzle adatti all'età (puzzle con grandi pezzi o forme da incastrare).",
+    "benefits": [
+      "Migliora le capacità motorie fini",
+      "Migliora la coordinazione occhio-mano",
+      "Migliora le capacità di risoluzione dei problemi",
+      "Migliora il ragionamento spaziale e la creatività"
+    ]
+  },
+  {
+    "id": "35",
+    "title": "Bowling con bottiglie riciclate",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "10 bottiglie di plastica vuote",
+      "Una palla (morbida)."
+    ],
+    "category": [
+      "Al chiuso",
+      "Coordinazione",
+      "Motricità grossolana",
+      "Riciclaggio"
+    ],
+    "description": "Preparare delle bottiglie di plastica vuote come birilli da bowling e usare una palla per abbatterle. Evidenzia l'aspetto educativo del riciclaggio.",
+    "benefits": [
+      "Migliora la mira",
+      "Migliora la coordinazione occhio-mano",
+      "Introduce il concetto di riciclaggio in modo divertente"
+    ]
+  },
+  {
+    "id": "36",
+    "title": "Giocare con le marionette",
+    "age": "2-5",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Marionette (burattini da dito",
+      "Marionette a guanto o più elaborate)."
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Immaginativo",
+      "Linguaggio",
+      "Socio-emotivo"
+    ],
+    "description": "Usare marionette (comprate o fatte in casa) per creare storie, recitare scenari e impegnarsi nel gioco immaginativo.",
+    "benefits": [
+      "Sviluppa le capacità linguistiche",
+      "Migliora l'immaginazione e la creatività",
+      "Promuove l'espressione emotiva",
+      "Incoraggia la narrazione"
+    ]
+  },
+  {
+    "id": "37",
+    "title": "Travestimenti",
+    "age": "2-5",
+    "time": "Preparazione minima",
+    "materials": [
+      "Una collezione di vestiti e accessori per travestimenti."
+    ],
+    "category": [
+      "Al chiuso",
+      "Immaginativo",
+      "Socio-emotivo"
+    ],
+    "description": "Usare una scatola di vestiti per travestimenti (vecchi vestiti, costumi, cappelli, sciarpe) per incoraggiare i bambini a interpretare ruoli diversi e scenari.",
+    "benefits": [
+      "Incoraggia l'immaginazione e la creatività",
+      "Sviluppa le abilità sociali",
+      "Migliora la comprensione di ruoli diversi",
+      "Promuove l'espressione di sé"
+    ]
+  },
+  {
+    "id": "38",
+    "title": "Gincana a staffetta",
+    "age": "5-8",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Corde",
+      "Giardino)",
+      "Spazio aperto (parco",
+      "Testimoni o altri oggetti da passare.",
+      "Tunnel)",
+      "Vari ostacoli (coni"
+    ],
+    "category": [
+      "All'aperto",
+      "Coordinazione",
+      "Lavoro di squadra",
+      "Motricità grossolana"
+    ],
+    "description": "Una corsa a squadre che prevede il superamento di una serie di ostacoli.",
+    "benefits": [
+      "Migliora le capacità motorie grossolane",
+      "Migliora la coordinazione",
+      "Migliora la velocità",
+      "Promuove il lavoro di squadra e la cooperazione"
+    ]
+  },
+  {
+    "id": "39",
+    "title": "Lo Spaventapasseri",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Magliette",
+      "Pantaloni).",
+      "Sciarpe",
+      "Set di indumenti e accessori per ogni spaventapasseri (cappelli"
+    ],
+    "category": [
+      "All'aperto",
+      "Lavoro di squadra",
+      "Motricità grossolana",
+      "Velocità"
+    ],
+    "description": "Un gioco a squadre in cui un giocatore per squadra fa da spaventapasseri e i compagni di squadra corrono per vestirlo con gli indumenti e gli accessori forniti.",
+    "benefits": [
+      "Incoraggia il lavoro di squadra",
+      "Sviluppa la rapidità di pensiero",
+      "Promuove l'attività fisica"
+    ]
+  },
+  {
+    "id": "40",
+    "title": "Centra la tazza",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Piccole palline (di carta o di plastica).",
+      "Tazze"
+    ],
+    "category": [
+      "All'aperto",
+      "Competizione",
+      "Coordinazione"
+    ],
+    "description": "I giocatori a turno lanciano piccole palline (di carta o di plastica) in una tazza posta a distanza. Può essere giocato individualmente o a squadre.",
+    "benefits": [
+      "Migliora la mira",
+      "Migliora la coordinazione occhio-mano",
+      "Migliora la concentrazione"
+    ]
+  },
+  {
+    "id": "41",
+    "title": "Terra mare cielo",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Una palla."
+    ],
+    "category": [
+      "All'aperto",
+      "Educativo",
+      "Linguaggio",
+      "Rapidità di pensiero"
+    ],
+    "description": "I giocatori siedono in cerchio. Una persona al centro lancia una palla a un altro giocatore mentre dice \"Terra\", \"Mare\" o \"Cielo\". Il giocatore che prende la palla deve nominare rapidamente un animale che vive in quell'ambiente.",
+    "benefits": [
+      "Stimola il vocabolario",
+      "Stimola la conoscenza degli animali e dei loro habitat",
+      "Stimola la rapidità di pensiero"
+    ]
+  },
+  {
+    "id": "42",
+    "title": "Nascondino",
+    "age": "5-8",
+    "time": "Nessuna preparazione",
+    "materials": [
+      "Nessuno."
+    ],
+    "category": [
+      "All'aperto e al chiuso",
+      "Motricità grossolana",
+      "Sociale",
+      "Strategia"
+    ],
+    "description": "Un gioco classico in cui una persona conta fino a un numero prestabilito mentre gli altri si nascondono. Chi conta poi li cerca.",
+    "benefits": [
+      "Incoraggia l'attività fisica",
+      "Sviluppa la consapevolezza spaziale",
+      "Promuove l'interazione sociale",
+      "Sviluppa il pensiero strategico (trovare buoni nascondigli)"
+    ]
+  },
+  {
+    "id": "43",
+    "title": "Giochi di Logica e Rompicapo, Domino e tombole, Giochi di strategia",
+    "age": "5-8",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Cartelle e pennarelli per la tombola",
+      "Giochi da tavolo).",
+      "Set di domino",
+      "Varia a seconda del gioco (libri di puzzle"
+    ],
+    "category": [
+      "Al chiuso",
+      "Educativo",
+      "Sociale"
+    ],
+    "description": "Impegnarsi con puzzle logici più complessi, giocare a domino o tombola e introdurre giochi di strategia adatti all'età come la dama o semplici giochi da tavolo.",
+    "benefits": [
+      "Migliora il pensiero logico",
+      "Migliora le capacità di risoluzione dei problemi",
+      "Sviluppa la pianificazione strategica",
+      "Promuove l'interazione sociale"
+    ]
+  },
+  {
+    "id": "44",
+    "title": "Magic Match, Kidimime, Mini Nature, Hungry Monster, Jenga, Tris, Memo Games",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Come da gioco specifico."
+    ],
+    "category": [
+      "Al chiuso",
+      "Educativo",
+      "Sociale"
+    ],
+    "description": "Giocare a giochi disponibili in commercio adatti a questa fascia d'età che si concentrano sulla memoria, l'osservazione e il pensiero strategico.",
+    "benefits": [
+      "Sviluppa la memoria",
+      "Sviluppa le capacità di osservazione",
+      "Sviluppa il pensiero strategico",
+      "Sviluppa le abilità sociali (rispetto dei turni",
+      "seguire le regole)"
+    ]
+  },
+  {
+    "id": "45",
+    "title": "Trova le differenze, Memory, Ricordare le figure, Chi è andato via?, Giocare a carte",
+    "age": "5-8",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Carta con disegni",
+      "Carte da gioco",
+      "Oggetti per il gioco \"chi è andato via?\".",
+      "Set di carte o immagini corrispondenti"
+    ],
+    "category": [
+      "Al chiuso",
+      "Educativo"
+    ],
+    "description": "Impegnarsi in giochi di discriminazione visiva, giocare a memory (sia fatto in casa che comprato) e introdurre semplici giochi di carte come Rubamazzo o Asino.",
+    "benefits": [
+      "Migliora la discriminazione visiva",
+      "Migliora la memoria",
+      "Migliora la concentrazione",
+      "Migliora le abilità matematiche di base (in alcuni giochi di carte)"
+    ]
+  },
+  {
+    "id": "46",
+    "title": "Scrittura creativa (fumetti, canzoni, diario, lettere, mappe)",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Carta",
+      "Materiali artistici.",
+      "Matite",
+      "Pennarelli colorati"
+    ],
+    "category": [
+      "Al chiuso",
+      "Immaginativo",
+      "Linguaggio",
+      "Scrittura creativa"
+    ],
+    "description": "Incoraggiare i bambini a impegnarsi in varie forme di scrittura creativa, come creare i propri fumetti, scrivere testi di canzoni, tenere un diario dei propri pensieri e domande, scrivere lettere ad amici o familiari e disegnare mappe del tesoro.",
+    "benefits": [
+      "Migliora le capacità di scrittura",
+      "Migliora le abilità di narrazione",
+      "Stimola l'immaginazione e la creatività",
+      "Migliora le capacità comunicative"
+    ]
+  },
+  {
+    "id": "47",
+    "title": "Esplorazioni scientifiche (esperimenti, natura, insetti, acqua)",
+    "age": "5-8",
+    "time": "Preparazione moderata",
+    "materials": [
+      "Aceto",
+      "Contenitori per l'acqua).",
+      "Kit per l'esplorazione della natura",
+      "Varia a seconda dell'attività specifica (bicarbonato di sodio"
+    ],
+    "category": [
+      "All'aperto e al chiuso",
+      "Educativo",
+      "Esplorativo",
+      "Scienza"
+    ],
+    "description": "Introdurre semplici esperimenti scientifici (come creare un vulcano), usare kit per l'esplorazione della natura (lenti d'ingrandimento, osservatori di insetti), osservare gli insetti in giardino e impegnarsi in giochi d'acqua per imparare concetti scientifici di base.",
+    "benefits": [
+      "Incoraggia la curiosità per il mondo naturale",
+      "Sviluppa le capacità di osservazione",
+      "Introduce concetti scientifici di base",
+      "Incoraggia la sperimentazione"
+    ]
+  },
+  {
+    "id": "48",
+    "title": "Giochi Impilabili, Blocchi in legno",
+    "age": "5-8",
+    "time": "Preparazione minima",
+    "materials": [
+      "Blocchi di legno",
+      "Giocattoli impilabili con pezzi più piccoli",
+      "Mattoncini lego o altri set di costruzioni."
+    ],
+    "category": [
+      "Al chiuso",
+      "Creativo",
+      "Educativo",
+      "Motricità fine",
+      "Ragionamento spaziale"
+    ],
+    "description": "Giocare con giochi impilabili più complessi e usare blocchi di legno (come LEGO o altri set di costruzioni) per costruire varie strutture e disegni.",
+    "benefits": [
+      "Sviluppa le capacità motorie fini",
+      "Sviluppa la coordinazione occhio-mano",
+      "Sviluppa il ragionamento spaziale",
+      "Sviluppa le capacità di risoluzione dei problemi",
+      "Incoraggia la creatività e l'immaginazione nella costruzione"
+    ]
+  }
+]

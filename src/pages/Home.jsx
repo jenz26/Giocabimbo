@@ -6,6 +6,7 @@ import ActivityCard from '../components/activity/ActivityCard';
 import ActivityDetailModal from '../components/activity/ActivityDetailModal';
 import activitiesJSON from '../data/activities.json';
 import { sanitizeActivities } from '../utils/sanitizeActivities';
+import MainLayout from '../components/layout/MainLayout';
 
 function Home() {
   const [activities, setActivities] = useState([]);
@@ -15,51 +16,29 @@ function Home() {
     age: '',
     time: '',
     materials: [],
-    category: [], // ✅ dev'essere array per <Select multiple />
+    category: [],
   });
 
-  // Step 1: carica e sanifica
   useEffect(() => {
     const localActivities = JSON.parse(localStorage.getItem('customActivities')) || [];
     const combined = [...activitiesJSON, ...localActivities];
     const sanitized = sanitizeActivities(combined);
-
-    console.log('📦 [Home] Activities from JSON + LocalStorage:', combined);
-    console.log('🧹 [Home] Sanitized activities:', sanitized);
-
     setActivities(sanitized);
   }, []);
 
-  // Step 2: applica i filtri
   useEffect(() => {
     let result = [...activities];
-
-    console.log('🎛️ [Filter] Current filters:', filter);
-
-    if (filter.age) {
-      result = result.filter((a) => a.age === filter.age);
-    }
-    if (filter.time) {
-      result = result.filter((a) => a.time === filter.time);
-    }
-    if (filter.materials.length > 0) {
-      result = result.filter((a) =>
-        filter.materials.every((m) => a.materials.includes(m))
-      );
-    }
-    if (filter.category.length > 0) {
-      result = result.filter((a) =>
-        filter.category.every((c) => a.category.includes(c))
-      );
-    }
-
-    console.log('🧮 [Filter] Filtered activities:', result);
-
+    if (filter.age) result = result.filter((a) => a.age === filter.age);
+    if (filter.time) result = result.filter((a) => a.time === filter.time);
+    if (filter.materials.length > 0)
+      result = result.filter((a) => filter.materials.every((m) => a.materials.includes(m)));
+    if (filter.category.length > 0)
+      result = result.filter((a) => filter.category.every((c) => a.category.includes(c)));
     setFilteredActivities(result);
   }, [filter, activities]);
 
   return (
-    <>
+    <MainLayout>
       <HeroSection />
       <Container sx={{ mt: 4 }}>
         <Typography variant="h5" fontWeight={600} gutterBottom>
@@ -70,13 +49,7 @@ function Home() {
 
         <Grid container spacing={3} sx={{ mt: 2 }}>
           {filteredActivities.map((activity) => (
-            <Grid
-              xs={12}
-              sm={6}
-              md={4}
-              display="flex"
-              key={activity.id}
-            >
+            <Grid xs={12} sm={6} md={4} display="flex" key={activity.id}>
               <ActivityCard
                 activity={activity}
                 onPreview={() => setSelectedActivity(activity)}
@@ -84,7 +57,6 @@ function Home() {
             </Grid>
           ))}
         </Grid>
-
 
         {filteredActivities.length === 0 && (
           <Box mt={4} textAlign="center">
@@ -102,7 +74,7 @@ function Home() {
           />
         )}
       </Container>
-    </>
+    </MainLayout>
   );
 }
 

@@ -18,6 +18,8 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { useState } from 'react';
 import categoryColorMap from '../../utils/categoryColorMap';
 import FeedbackSnackbar from '../common/FeedbackSnackbar';
+import { shareActivity } from '../../utils/shareActivity';
+import { printActivity } from '../../utils/printActivity';
 
 import img1 from '../../assets/modale-bg/img1.webp';
 import img2 from '../../assets/modale-bg/img2.webp';
@@ -97,7 +99,7 @@ function ActivityDetailModal({ open, handleClose, activity }) {
                 borderRadius: 'inherit',
               }}
             />
-  
+
             {/* CONTENUTO */}
             <Box sx={{ position: 'relative', zIndex: 1 }}>
               <Stack
@@ -113,7 +115,7 @@ function ActivityDetailModal({ open, handleClose, activity }) {
                   <CloseIcon color="action" />
                 </IconButton>
               </Stack>
-  
+
               <Typography
                 variant="body1"
                 sx={{ mb: 3, whiteSpace: 'pre-line' }}
@@ -121,7 +123,7 @@ function ActivityDetailModal({ open, handleClose, activity }) {
               >
                 {activity.description}
               </Typography>
-  
+
               {activity.materials?.length > 0 && (
                 <Box sx={{ mb: 3 }}>
                   <Typography variant="subtitle1" fontWeight={600} gutterBottom>
@@ -134,7 +136,7 @@ function ActivityDetailModal({ open, handleClose, activity }) {
                   </Stack>
                 </Box>
               )}
-  
+
               {activity.benefits?.length > 0 && (
                 <Box sx={{ mb: 3 }}>
                   <Typography variant="subtitle1" fontWeight={600} gutterBottom>
@@ -142,12 +144,17 @@ function ActivityDetailModal({ open, handleClose, activity }) {
                   </Typography>
                   <Stack direction="row" spacing={1} flexWrap="wrap">
                     {activity.benefits.map((b, i) => (
-                      <Chip key={i} label={b} variant="outlined" color="success" />
+                      <Chip
+                        key={i}
+                        label={b}
+                        variant="filled"
+                        sx={{ bgcolor: '#FFCC80', color: '#4E342E' }}
+                      />
                     ))}
                   </Stack>
                 </Box>
               )}
-  
+
               {activity.category?.length > 0 && (
                 <Box sx={{ mb: 3 }}>
                   <Typography variant="subtitle1" fontWeight={600} gutterBottom>
@@ -165,7 +172,7 @@ function ActivityDetailModal({ open, handleClose, activity }) {
                   </Stack>
                 </Box>
               )}
-  
+
               <Button
                 onClick={handleToggleFavorite}
                 variant="contained"
@@ -184,8 +191,27 @@ function ActivityDetailModal({ open, handleClose, activity }) {
               >
                 {isFavorite ? 'Rimuovi dai Preferiti' : 'Aggiungi ai Preferiti'}
               </Button>
+
+              <Stack direction="row" spacing={2} sx={{ mt: 2 }}>
+                <Button
+                  variant="outlined"
+                  fullWidth
+                  onClick={() => shareActivity(activity)}
+                  sx={{ fontWeight: 600 }}
+                >
+                  Condividi
+                </Button>
+                <Button
+                  variant="outlined"
+                  fullWidth
+                  onClick={() => printActivity(activity)}
+                  sx={{ fontWeight: 600 }}
+                >
+                  Stampa
+                </Button>
+              </Stack>
             </Box>
-  
+
             <FeedbackSnackbar
               open={snackOpen}
               message={snackMessage}
@@ -197,7 +223,6 @@ function ActivityDetailModal({ open, handleClose, activity }) {
       </Modal>
     </ThemeProvider>
   );
-  
 }
 
 export default ActivityDetailModal;

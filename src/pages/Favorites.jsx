@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import activitiesData from '../data/activities.json';
 import ActivityCard from '../components/activity/ActivityCard';
 import HeroSection from '../components/layout/HeroSection';
+import MainLayout from '../components/layout/MainLayout';
 
 function Favorites() {
   const favorites = useSelector(state => state.favorites);
@@ -13,8 +14,7 @@ function Favorites() {
   );
 
   return (
-    <Box sx={{ width: '100%' }}>
-      {/* HERO */}
+    <MainLayout>
       <HeroSection
         title="I tuoi Preferiti ❤️"
         subtitle="Qui troverai tutte le attività che hai salvato per il tuo bambino!"
@@ -22,7 +22,6 @@ function Favorites() {
         image={null}
       />
 
-      {/* CONTENUTO */}
       <Box sx={{ px: { xs: 2, md: 6 }, py: 4 }}>
         {favoriteActivities.length > 0 ? (
           <Grid container spacing={3}>
@@ -43,14 +42,7 @@ function Favorites() {
           </Box>
         )}
       </Box>
-
-      {/* FOOTER */}
-      <Box sx={{ bgcolor: '#f8f8f8', py: 4, textAlign: 'center' }}>
-        <Typography variant="body2" color="text.secondary">
-          © {new Date().getFullYear()} GiocaBimbo – Tutti i diritti riservati
-        </Typography>
-      </Box>
-    </Box>
+    </MainLayout>
   );
 }
 

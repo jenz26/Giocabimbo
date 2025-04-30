@@ -2,8 +2,8 @@ import { useSelector } from 'react-redux';
 import { Typography, Box, Button, Grid } from '@mui/material';
 import { Link } from 'react-router-dom';
 import activitiesData from '../data/activities.json';
-import ActivityCard from '../components/ActivityCard';
-import HeroSection from '../components/HeroSection';
+import ActivityCard from '../components/activity/ActivityCard';
+import HeroSection from '../components/layout/HeroSection';
 
 function Favorites() {
   const favorites = useSelector(state => state.favorites);

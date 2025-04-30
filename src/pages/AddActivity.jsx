@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material';
-import HeroSection from '../components/HeroSection';
-import FormNewActivity from '../components/FormNewActivity';
+import HeroSection from '../components/layout/HeroSection';
+import FormNewActivity from '../components/forms/FormNewActivity';
 
 function AddActivity() {
   return (

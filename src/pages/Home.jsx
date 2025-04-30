@@ -1,92 +1,108 @@
-import { Box, Typography, Grid } from '@mui/material';
 import { useEffect, useState } from 'react';
-import activitiesData from '../data/activities.json';
-import ActivityCard from '../components/ActivityCard';
-import Filters from '../components/Filters';
-import ActivityDetailModal from '../components/ActivityDetailModal';
-import HeroSection from '../components/HeroSection'; // ✅ usiamo il componente esistente
+import { Box, Container, Grid, Typography } from '@mui/material';
+import HeroSection from '../components/layout/HeroSection';
+import Filters from '../components/activity/Filters';
+import ActivityCard from '../components/activity/ActivityCard';
+import ActivityDetailModal from '../components/activity/ActivityDetailModal';
+import activitiesJSON from '../data/activities.json';
+import { sanitizeActivities } from '../utils/sanitizeActivities';
 
 function Home() {
-  const [allActivities, setAllActivities] = useState([]);
-  const [filters, setFilters] = useState({
+  const [activities, setActivities] = useState([]);
+  const [filteredActivities, setFilteredActivities] = useState([]);
+  const [selectedActivity, setSelectedActivity] = useState(null);
+  const [filter, setFilter] = useState({
     age: '',
     time: '',
     materials: [],
-    category: []
+    category: [], // ✅ dev'essere array per <Select multiple />
   });
 
-  const [selectedActivity, setSelectedActivity] = useState(null);
-
+  // Step 1: carica e sanifica
   useEffect(() => {
-    const customActivities = JSON.parse(localStorage.getItem('customActivities')) || [];
-    setAllActivities([...activitiesData, ...customActivities]);
+    const localActivities = JSON.parse(localStorage.getItem('customActivities')) || [];
+    const combined = [...activitiesJSON, ...localActivities];
+    const sanitized = sanitizeActivities(combined);
+
+    console.log('📦 [Home] Activities from JSON + LocalStorage:', combined);
+    console.log('🧹 [Home] Sanitized activities:', sanitized);
+
+    setActivities(sanitized);
   }, []);
 
-  const filteredActivities = allActivities.filter(activity => {
-    const ageMatch = filters.age ? activity.age === filters.age : true;
-    const timeMatch = filters.time
-      ? activity.time?.toLowerCase().includes(filters.time.toLowerCase())
-      : true;
-    const materialsMatch = filters.materials.length
-      ? filters.materials.some(m => activity.materials?.includes(m))
-      : true;
-    const categoryMatch = filters.category.length
-      ? filters.category.some(cat => activity.category?.includes(cat))
-      : true;
+  // Step 2: applica i filtri
+  useEffect(() => {
+    let result = [...activities];
 
-    return ageMatch && timeMatch && materialsMatch && categoryMatch;
-  });
+    console.log('🎛️ [Filter] Current filters:', filter);
+
+    if (filter.age) {
+      result = result.filter((a) => a.age === filter.age);
+    }
+    if (filter.time) {
+      result = result.filter((a) => a.time === filter.time);
+    }
+    if (filter.materials.length > 0) {
+      result = result.filter((a) =>
+        filter.materials.every((m) => a.materials.includes(m))
+      );
+    }
+    if (filter.category.length > 0) {
+      result = result.filter((a) =>
+        filter.category.every((c) => a.category.includes(c))
+      );
+    }
+
+    console.log('🧮 [Filter] Filtered activities:', result);
+
+    setFilteredActivities(result);
+  }, [filter, activities]);
 
   return (
-    <Box sx={{ width: '100%' }}>
-      {/* HERO */}
+    <>
       <HeroSection />
-
-      {/* FILTRI */}
-      <Box sx={{ px: { xs: 2, md: 6 }, py: 4 }}>
-        <Filters activities={allActivities} filters={filters} setFilters={setFilters} />
-      </Box>
-
-      {/* CONTENUTO */}
-      <Box sx={{ px: { xs: 2, md: 6 }, pb: 6 }}>
-        {filteredActivities.length > 0 ? (
-          <Grid container spacing={3}>
-            {filteredActivities.map(activity => (
-              <Grid item xs={12} sm={6} md={4} key={activity.id}>
-                <ActivityCard
-                  activity={activity}
-                  onPreview={() => setSelectedActivity(activity)}
-                />
-              </Grid>
-            ))}
-          </Grid>
-        ) : (
-          <Typography
-            variant="h6"
-            color="text.secondary"
-            sx={{ mt: 4, textAlign: 'center' }}
-          >
-            Nessuna attività trovata con i filtri attuali.
-          </Typography>
-        )}
-      </Box>
-
-      {/* MODALE */}
-      {selectedActivity && (
-        <ActivityDetailModal
-          open={Boolean(selectedActivity)}
-          handleClose={() => setSelectedActivity(null)} // 💥 QUI IL CAMBIO
-          activity={selectedActivity}
-        />
-      )}
-
-      {/* FOOTER BASE */}
-      <Box sx={{ bgcolor: '#f8f8f8', py: 4, textAlign: 'center' }}>
-        <Typography variant="body2" color="text.secondary">
-          © {new Date().getFullYear()} GiocaBimbo – Tutti i diritti riservati
+      <Container sx={{ mt: 4 }}>
+        <Typography variant="h5" fontWeight={600} gutterBottom>
+          Scopri attività per giocare con intelligenza 🎲
         </Typography>
-      </Box>
-    </Box>
+
+        <Filters filters={filter} setFilters={setFilter} activities={activities} />
+
+        <Grid container spacing={3} sx={{ mt: 2 }}>
+          {filteredActivities.map((activity) => (
+            <Grid
+              xs={12}
+              sm={6}
+              md={4}
+              display="flex"
+              key={activity.id}
+            >
+              <ActivityCard
+                activity={activity}
+                onPreview={() => setSelectedActivity(activity)}
+              />
+            </Grid>
+          ))}
+        </Grid>
+
+
+        {filteredActivities.length === 0 && (
+          <Box mt={4} textAlign="center">
+            <Typography variant="body1" color="text.secondary">
+              Nessuna attività trovata con i filtri attuali 😢
+            </Typography>
+          </Box>
+        )}
+
+        {selectedActivity && (
+          <ActivityDetailModal
+            open={Boolean(selectedActivity)}
+            handleClose={() => setSelectedActivity(null)}
+            activity={selectedActivity}
+          />
+        )}
+      </Container>
+    </>
   );
 }
 
